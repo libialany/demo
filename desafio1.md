@@ -1,8 +1,13 @@
 ### **Desafío 1: Crear un contenedor (`div`)**
 
-**Tarea**: Crear un `div` que contenga todo el contenido de la página. Este `div` es como una caja que mantendrá los demás elementos organizados.
+**Tarea**: Crear un `div`  para el contenido de descripcion inicial. Este `div` es como una caja que mantendrá los elementos organizados.
 
-* En el cuerpo del HTML, agrega una etiqueta `div` con el atributo clase(class).
+* En el cuerpo del HTML, agrega una etiqueta `div` con la parte clase(class).
+
+  Ejemplo:
+  ```
+  <div class=""><div>
+  ```
 
 ```html
 <body>
