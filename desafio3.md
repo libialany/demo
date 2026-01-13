@@ -2,9 +2,9 @@
 
 **Tarea**: Crear la segunda sección de la página para mostrar los enlaces.
 
-1. Debajo de la sección `bio`, agrega un nuevo `div` con la clase `links`.
+1. Agrega un nuevo `div` con la clase(class) `links`.
 
-2. Dentro del `div` `links`, crea una lista desordenada (`<ul>`).
+2. Dentro del `div` crea una lista desordenada (`<ul>`).
 
 3. Dentro de la lista desordenada, agrega 4 elementos de lista (`<li>`). Cada elemento de lista debe contener un enlace (`<a>`). Puedes usar el siguiente texto para los enlaces:
 
