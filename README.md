@@ -1,44 +1,271 @@
-# TAREA - LINKTREE
+##  Ingresar a nuestro editor
 
-### Linktree FINAL
-![](./result.png)
+![editor](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-starter)
 
-## Desafios
+- En el archivo index.html marcar todo y borrar.
+- copiar este codigo y pegar.
 
-### **Desafío 1: Crear un contenedor (`div`)**
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My link tree</title>
+  </head>
+  <body>
+  
+  </body>
+</html>
 
-**Tarea**: Crear un `div`  para el contenido de descripcion inicial. Este `div` es como una caja que mantendrá los elementos organizados.
-
-* En el cuerpo del HTML, agrega una etiqueta `div` con la parte clase(class).
-
-  Ejemplo:
-
-  ```
-  <div class=""><div>
-  ```
-
-```html
-<body>
-    <!-- Crear un div contenedor para mantener todos los elementos -->
-    <!-- Aqui debes agregarlo  el div-->
-</body>
 ```
 
-### **Desafío 2: Sección de Biografía**
-
-**Tarea**: Crear la primera sección de la página donde irá la imagen y el texto.
-
-2. Dentro del `div`, agrega una imagen (`<img>`) con el atributo `src` apuntando a esta URL: `https://images.sketchaday.app/2020-07-30_4c72d2a0-1d81-4dca-be62-4a52fdadb84d.jpg`.
-3. Agrega un encabezado (`<h3>`) en el texto debe ir tu nombre.
-4. Debajo del encabezado h3, agrega otro encabezado (`<h6>`) con algún texto, como "Estudiante | Musico".
-
-```html
-<div>
-    <!-- Agregar una imagen(<img>) con el atributo src para la foto de perfil -->
-    <!-- Agregar encabezados para el nombre un h3 y la descripcion un h6 -->
-</div>
+- En el archivo **style.css** borrar todo y pegar.
+```
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
 ```
 
-## Recuerda las etiquetas
 
-![](./cheatsheet.png)
+## Crear un div 
+
+## Descripcion:
+
+En el archivo **index.html** y crea 2 etiquetas  div <div>.
+
+```html
+   <div>
+        <div>
+            <!-- estoy dentro de un div -->
+        </div>
+        <!-- AQUI CREA OTRO DIV COMO EL DE ARRIBA -->
+    </div>
+```
+
+
+### Dar estilo a nuestro primer div con class
+
+Al primer div adiciona esto <div class="container">
+
+```html
+   <div AQUI>
+        <div >
+            <!-- estoy dentro de un div -->
+        </div>
+        <!-- AQUI CREA OTRO DIV COMO EL DE ARRIBA -->
+    </div>
+```
+
+
+
+### Dar estilo a nuestro primer div con CSS
+
+Despues nos vamos al archivo **style.css**
+
+```
+.container {
+    width: 300px;
+    background-color: CAMBIA;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+```
+
+### Cambiar de color al fondo
+
+En el archivo **style.css**
+
+La propiedad 
+
+```
+background-color: ;
+```
+
+### Dar estilo a nuestro segundo div con class
+
+Adicion la class llamada bio como el en primer div esta la clase container.
+
+```html
+   <div class="container">
+        <div AQUI>
+            <!-- estoy dentro de un div -->
+        </div>
+        <div>
+        </div>
+    </div>
+```
+
+### Dar estilo a nuestro segundo div con css
+
+en **style.css**
+
+```
+.bio {
+    margin-bottom: 20px;
+}
+```
+
+### Crear un imagen y un titulo con html
+
+Adicion la class llamada bio como el en primer div esta la clase container.
+
+En la imagen adicion la class **profile-img**.
+
+```html
+   <div class="container">
+        <div class="bio">
+            <!-- CREA UN IMG -->
+            <!--  CREA UN TITULO H3 -->
+        </div>
+        <div>
+        </div>
+    </div>
+```
+
+### Dar estilo al titulo y a la imagen
+
+en **style.css**
+
+```
+.profile-img {
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 0px;
+    margin: 0;
+    font-weight: bold;
+}
+```
+### Arregla la imagen y el texto
+
+Imagen:
+
+```
+width: ;
+heigth: ;
+```
+
+Texto:
+```
+font-size: ;
+```
+
+# DESCANSO
+
+### Dar estilo a nuestro tercer div con class
+
+Al tercer div adiciona la class **links**:
+
+```html
+   <div class="container">
+        <div >
+            <!-- NO CAMBIES NADA AQUI -->
+        </div>
+        <div AQUI>
+            <!-- estoy dentro de un div -->
+        </div>
+    </div>
+```
+### Crear una lista dentro del tercer div
+
+Adiciona los items con <li> dentro del ul(<ul>).
+
+```html
+   <div class="container">
+        <div >
+            <!-- NO CAMBIES NADA AQUI -->
+        </div>
+        <div AQUI>
+            <ul>
+            <!-- AQUI ITEM1 -->
+            <!-- AQUI ITEM2 -->
+            </ul>
+        </div>
+    </div>
+```
+
+### Dar estilos a la lista con CSS
+
+En el archivo **style.css**
+
+Dar estila a la lista, reemplazar la palabra AQUI por **none**.
+
+```
+.links ul {
+    list-style-type: AQUI;
+    padding: 0;
+}
+```
+
+### Dar estilos a los items con CSS
+
+En el archivo **style.css**
+
+Dar estilo al item cambia de tamanio.
+
+```
+.links li {
+    margin-bottom: 0px;
+}
+```
+
+### Crear links dentro de cada item
+
+Dentro de la etiqueta item <li>
+adiciona una etiqueta link.
+La etiqueta link es esta:
+
+```
+<a href="#">Tienda</a>
+```
+
+Vamos a tucodigo.
+
+```html
+   <div class="container">
+        <div class="links">
+            <ul>
+             <li>
+                <!-- AQUI ADICIONA -->
+             </li>
+            </ul>
+        </div>
+    </div>
+```
+
+### Dar estilos a las etiquetas link(<a>) con CSS.
+
+- Da color a las etiquetas a.
+- Cambia de tamanio las letra en **font-size**
+- Cambia de la propiedad **text-decoration** con el valor none.
+
+```
+.links a {
+    text-decoration: AQUI;
+    color: AQUI;
+    font-size: 0px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: AQUI;
+}
+```
+
+
