@@ -313,7 +313,20 @@ let now = new Date();
     minute: "2-digit",
     second: "2-digit"
   });
+
+
+
+.hover-text {
+  color: black;        /* normal text color */
+  transition: color 0.3s;  /* smooth color change */
+}
+
+.hover-text:hover {
+  color: red;          /* color when hovered */
+  text-decoration: underline; /* optional effect */
+}
 ```
+
 
 ### Integrando a nuestro HTML
 
