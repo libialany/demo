@@ -1,6 +1,6 @@
 ##  Ingresar a nuestro editor
 
-![editor](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-starter)
+[editor](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-starter)
 
 - En el archivo index.html marcar todo y borrar.
 - copiar este codigo y pegar.
