@@ -268,4 +268,37 @@ Vamos a tucodigo.
 }
 ```
 
+### Adicionando logica
 
+## Funciones definidas en JAvascript
+
+```
+
+setInterval(() => {}, 1000);
+
+```
+
+* `1000` = **1000 milliseconds**
+* `1000 ms = 1 segundo`
+
+
+### Creando una variable de fecha
+
+```
+let now = new Date();
+```
+
+```
+  let time = now.toLocaleTimeString("en-US", {
+    timeZone: "Asia/Tokyo",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit"
+  });
+```
+
+### Integrando a nuestro HTML
+
+```
+  document.getElementById("time").innerHTML = time;
+```
