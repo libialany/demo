@@ -53,7 +53,7 @@ En el archivo **index.html** y crea 2 etiquetas  div <div>.
 
 ### Dar estilo a nuestro primer div con class
 
-Al primer div adiciona esto `<div class="container">`
+Al primer div adiciona esto  la clase container como este ejemplo: `<div class="container">`
 
 ```html
    <div AQUI>
