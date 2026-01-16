@@ -93,7 +93,8 @@ background-color: ;
 
 ### Dar estilo a nuestro segundo div con class
 
-Adicion la class llamada bio como el en primer div esta la clase container.
+Adicion la class llamada **bio** como el en primer div ejemplo:
+``<div class="AQUI">``
 
 ```html
    <div class="container">
@@ -111,15 +112,17 @@ en **style.css**
 
 ```
 .bio {
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 ```
 
 ### Crear un imagen y un titulo con html
 
-Adicion la class llamada bio como el en primer div esta la clase container.
+crea una etiqueta img `<img>`
 
-En la imagen adicion la class **profile-img**.
+En la imagen adicion la class **profile-img**. `<img class="AQUI" src="AQUILINK">`
+
+crea una etiqueta h3 ejemplo`<h1>AQUI</h1>`
 
 ```html
    <div class="container">
@@ -167,13 +170,25 @@ font-size: ;
 
 # DESCANSO
 
+### Crear nuestro tercer div 
+
+```html
+   <div class="container">
+        <div class="">
+            <!-- estoy el segundo div-->
+        </div>
+          <!-- CREAR NUESTRO TERCER DIV AQUI -->
+    </div>
+```
+
+
 ### Dar estilo a nuestro tercer div con class
 
 Al tercer div adiciona la class **links**:
 
 ```html
    <div class="container">
-        <div >
+        <div class="bio">
             <!-- NO CAMBIES NADA AQUI -->
         </div>
         <div AQUI>
@@ -181,9 +196,10 @@ Al tercer div adiciona la class **links**:
         </div>
     </div>
 ```
+
 ### Crear una lista dentro del tercer div
 
-Adiciona los items con <li> dentro del ul(<ul>).
+Adiciona los items con <li> dentro de la etiqueta **ul(<ul>)**.
 
 ```html
    <div class="container">
@@ -227,8 +243,8 @@ Dar estilo al item cambia de tamanio.
 ### Crear links dentro de cada item
 
 Dentro de la etiqueta item <li>
-adiciona una etiqueta link.
-La etiqueta link es esta:
+
+Adiciona una etiqueta link, la etiqueta link es esta:
 
 ```
 <a href="#">Tienda</a>
@@ -267,6 +283,8 @@ Vamos a tucodigo.
     color: AQUI;
 }
 ```
+
+### DESCANSO
 
 ### Adicionando logica
 
