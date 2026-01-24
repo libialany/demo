@@ -199,7 +199,7 @@ Al tercer div adiciona la class **links**:
 
 ### Crear una lista dentro del tercer div
 
-Adiciona los items con <li> dentro de la etiqueta **ul(<ul>)**.
+Adiciona los items con <li> dentro de la etiqueta   `ul(<ul>)`.
 
 ```html
    <div class="container">
